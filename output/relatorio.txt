@@ -8,3 +8,13 @@ Numero de elementos: 1000
 Comparacoes: 21177
 Movimentacoes: 14893
 
+SHELL SORT: 
+Numero de elementos: 1000
+Comparacoes: 9378
+Movimentacoes: 8742
+
+SHELL SORT: 
+Numero de elementos: 500
+Comparacoes: 9025
+Movimentacoes: 6406
+
