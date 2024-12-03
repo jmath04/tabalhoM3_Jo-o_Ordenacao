@@ -1,0 +1,4 @@
+
+MERGE SORT: 
+Comparações: 2934
+Movimentações: 680

@@ -19,14 +19,18 @@ int main(){
             case 1: 
                 ShellSort(vet,vet.size(),comparacoes,movimentacoes);
                 relatorio << "SHELL SORT: " << endl << "Comparações: " << comparacoes << endl << "Movimentações: " << movimentacoes << endl;
+                break;
             case 2:
-                mergeSort(vet,0,vet.size()-1,comparacoes,movimentacoes);
+                mergeSort(vet,0,vet.size(),comparacoes,movimentacoes);
                 relatorio << "MERGE SORT: " << endl << "Comparações: " << comparacoes << endl << "Movimentações: " << movimentacoes << endl;
+                break;
             case 3:
                 heapSort(vet,comparacoes,movimentacoes);
                 relatorio << "HEAP SORT: " << endl << "Comparações: " << comparacoes << endl <<  "Movimentações: " << movimentacoes << endl;
+                break;
             default:
                 cout << "opção invalida digite novamente";
+                break;
         }
     }while(op > 3 and op < 0);
 
