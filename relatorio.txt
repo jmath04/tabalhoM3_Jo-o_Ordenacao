@@ -1,6 +1,0 @@
-MERGE SORT: 
-Comparações: 2934
-Movimentações: 680
-HEAP SORT: 
-Comparações: 5545
-Movimentações: 1318
